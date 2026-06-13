@@ -5,7 +5,7 @@ import numpy as np
 
 detector = MTCNN()
 ring = cv2.imread("kolo.png", cv2.IMREAD_UNCHANGED)
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while True:
     ret, frame = cap.read()
